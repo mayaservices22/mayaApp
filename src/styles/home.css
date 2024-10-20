@@ -1,0 +1,110 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: 100vh;
+  background-color: white;
+  padding: 7em 0;
+}
+
+.logo {
+  margin-bottom: 20px;
+  width: 40%;
+}
+
+.form-wrapper {
+  width: 100%;
+  max-width: 400px;
+  padding: 30px 20px;
+  border-radius: 8px;
+
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 1em;
+}
+
+.country-code-select {
+  padding: 10px 8px;
+  border-radius: 1em;
+  background: #F7F7F7;
+  color: #000;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  width: 70px;
+  height: 60px;
+}
+
+.form-input {
+  flex: 1;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 1em;
+  background: #F7F7F7;
+  color: #000;
+  font-size: 14px;
+  width: 70px;
+  height: 60px;
+}
+
+.password-toggle-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.forgot-password {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.forgot-password-link {
+  color: #04A352;
+  text-decoration: none;
+}
+
+.forgot-password-link:hover {
+  text-decoration: underline;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #04A352;
+  color: white;
+  border: none;
+  border-radius: 16px;
+  font-size: 16px;
+  cursor: pointer;
+  height: 60px;
+  margin-top: 2em;
+}
+
+.submit-button:hover {
+  background-color: #45a045;
+}
+
+.submit-button:disabled {
+  background-color: #98D8B7;
+  cursor: not-allowed;
+}
